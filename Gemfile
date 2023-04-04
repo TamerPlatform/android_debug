@@ -14,6 +14,6 @@ group :development do
   gem "jeweler", "~> 1.8.4"
   
   # Documentation
-  gem 'yard'
-  gem 'kramdown'
+  gem 'yard', '>= 0.9.20'
+  gem 'kramdown', '>= 2.3.0'
 end
